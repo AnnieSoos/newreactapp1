@@ -9,7 +9,11 @@ describe('<Title />', () => {
     expect(title).toHaveTagName('h1')
   })
 
-  it('renders the content', () => {
-      expect(title).toHaveText('Hello, World')
-    })
+  // it('renders the content', () => {
+  //     expect(title).toHaveText('Hello, World')
+  //   })
+  //
+  //   it('renders a different title text', () => {
+  //       expect(title).toHaveText('Something Completely Different!')
+  //     })
 })
